@@ -1,0 +1,14 @@
+name: HMEasyChat
+version: '${project.version}'
+main: net.heavenmine.hmeasychat.Main
+authors: [FuxWa]
+description: This plugin made by HeavenMine team
+website: heavenmine.net
+depend:
+  - LuckPerms
+commands:
+  channel:
+  mute:
+  unmute:
+  nickname:
+  clear:

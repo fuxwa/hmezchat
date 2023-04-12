@@ -1,0 +1,36 @@
+# Đây là file config.yml của plugin Minecraft hỗ trợ chat và quản lý kênh chat
+
+# Cấu hình chung
+version: 1.0.0
+prefix: "&d[HMEasyChat] "
+
+general:
+  channels:
+    - global
+    - helper
+    - mod
+    - admin
+    - custom
+
+# Định dạng tin nhắn cho mỗi kênh chat
+channel-format:
+  global:
+    prefix: "&7[&aGlobal&7] "
+    messageColour: "&f"
+    permission: "hmezchat.channel.global"
+  helper:
+    prefix: "&7[&6Helper&7] "
+    messageColour: "&6"
+    permission: "hmezchat.channel.helper"
+  mod:
+    prefix: "&7[&dMod&7] "
+    messageColour: "&d"
+    permission: "hmezchat.channel.mod"
+  admin:
+    prefix: "&7[&cAdmin&7] "
+    messageColour: "&c"
+    permission: "hmezchat.channel.admin"
+  custom:
+    prefix: "&7[&2Custom&7] "
+    messageColour: "&2"
+    permission: "hmezchat.channel.custom"
